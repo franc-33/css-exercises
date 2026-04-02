@@ -24,3 +24,24 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* FOX */
+.title {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.typez {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 200px;
+}
