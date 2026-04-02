@@ -46,3 +46,27 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* MY FIX BEBE */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+  border: 1px solid black;
+}
+
+.left, .right {
+  display: flex;
+  gap: 8px;
+  border: 1px solid red;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+  margin-left: 20px;
+}
